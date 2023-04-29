@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class = "content">
+            <p class = "golu">Digital Timer and Stopwatch</p>
+           <h3>By Amitesh</h3>
+           <p class = "type">Clock</p>
+        </div>
+        <div classs = outer-wrapper>
+            <div class="clock">
+                <div class = "wrapper">
+                 <div class="main">
+                    <div class = "hour">
+                        <p class="number" id = "hour">02</p>
+                        <p>hours</p>
+                    </div>
+                    <p class = "colon">:</p>
+                    <div class = "min">
+                        <p class="number" id = "min">02</p>
+                        <p>minutes</p>
+                    </div>
+                    <p class = "colon">:</p>
+                    <div class = "sec">
+                        <p class="number" id = "sec">02</p>
+                        <p>seconds</p>
+                    </div>
+                    <p class = "colon">:</p>
+                    <div class = "ampm">
+                        <p class="number" id = "ampm">AM</p>
+                        <p class ="other-ampm">PM</p>
+                    </div>
+                 </div>
+                </div>
+                <div class="btns">
+                    <button class="btn">Stopwatch</button>
+                    <button class="btn">Timer</button>
+                </div>
+            </div>
+            <div class = "stopwatch">
+                <div class ="wrapper">
+                    <div class = "main">
+                        <div class="hour">
+                            <p class="number" id = "stopwatch-hour">00</p>
+                            <p>hours</p>
+                        </div>
+                        <div class="min">
+                            <p class="number" id = "stopwatch-min">00</p>
+                            <p>minutes</p>
+                        </div>
+                        <div class="sec">
+                            <p class="number" id = "stopwatch-sec">00</p>
+                            <p>seconds</p>
+                        </div>
+                        <div class="milisecond">
+                            <p class="number" id = "stopwatch-ms">00</p>
+                            <p>miliseconds</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class = "btns">
+                <button class="btn start-stopwatch">Start</button>
+                <button class="btn reset-stopwatch">reset</button>
+                <button class="btn back-btn">Back</button>
+            </div> 
+        </div>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
